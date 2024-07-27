@@ -825,7 +825,7 @@ const generateRemark = (index, port) => {
     switch (index) {
         case 0:
         case 1:
-            remark = `👽️ Bullet - Domain_${index + 1} : ${port}`;
+            remark = `👽️ Bullet - Dns_${index + 1} : ${port}`;
             break;
         case 2:
         case 3:
