@@ -829,14 +829,14 @@ const generateRemark = (index, port) => {
             break;
         case 2:
         case 3:
-            remark = `👽️ Bullet - IPv4_${index - 1} : ${port}`;
+            remark = `👽️ Bullet - v4_${index - 1} : ${port}`;
             break;
         case 4:
         case 5:
-            remark = `👽️ Bullet - IPv6_${index - 3} : ${port}`;
+            remark = `👽️ Bullet - v6_${index - 3} : ${port}`;
             break;
         default:
-            remark = `👽️ Bullet - Clean IP_${index - 5} : ${port}`;
+            remark = `👽️ Bullet - Good_${index - 5} : ${port}`;
             break;
     }
 
